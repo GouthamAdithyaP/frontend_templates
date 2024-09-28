@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.register-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+}
+
+.cta-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-left: 830px;
+    background-color: #fff;
+}
+
+.stat h3 {
+    font-size: 32px;
+    color: #000;
+}
+
+.stat p {
+    color: #666;
+}
+
+.categories {
+    text-align: center;
+    padding: 50px;
+}
+.show{
+    color: grey;
+}
+.cat{
+    color: #000;
+}
+
+.category-slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+justify-content: space-evenly;
+}
+
+.category {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.category img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.why-choose-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.reason h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.best-features {
+    text-align: center;
+    padding: 50px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.feature {
+    margin: 0 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+footer .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer .footer-nav ul li {
+    margin: 0 15px;
+}
+
+footer .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero-image{
+    width:55%;
+    height: 55%;
+   
+}
+.register-btn{
+    border-radius: 50px;
+}
+.learn-more-btn{
+    color: #000;
+    background-color: white;
+    border:0.01px solid white;
+}
+.hero h1{
+    color: grey;
+}
+.hero span{
+    color:black
+}
+.why-choose-us img{
+    float: left;
+    
+}
+.reason{
+    
+    display: inline-grid;
+    justify-content: space-evenly;
+    padding:20px;
+    width: 50%;
+    float: right;
+}
+.reason1{
+    border: 0.3px solid white;
+    width:20%;
+    background-color: rgb(128, 128, 128);
+    opacity:0.5;
+    height:100%;
+    padding:30px;
+    margin-left:0px;
+}
+.reason4{
+    border: 0.3px solid white;
+    width:20%;
+    background-color: rgb(128, 128, 128);
+    opacity:0.5;
+    height:100%;
+    padding:30px;
+    margin-right: 0px;
+}
+.reason2{
+    border: 0.3px solid cornsilk;
+    width:30%;
+    background-color:white;
+    opacity:2;
+    height:100%;
+    padding:30px;
+}
+.reason3{
+    border: 0.3px solid cornsilk;
+    width:30%;
+    background-color:white;
+    opacity:2;
+    height:100%;
+    padding:30px;
+}
+.reason1,.reason2{
+    display: inline;
+    justify-content: flex-end;
+}
+.feature1{
+    border: 0.3px solid grey;
+    height: 100px;
+    width: 30px;
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+.feature2{
+    border: 0.3px solid grey;
+    height: 100px;
+    width: 30px;
+    padding: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+.feature3{
+    border: 0.3px solid grey;
+    height: 100px;
+    width: 30px;
+    padding: 60px;
+    
+    margin: auto;
+    display: flex;
+    
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
